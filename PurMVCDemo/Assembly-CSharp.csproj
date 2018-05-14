@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>E:/Program Files/Unity5.3.4/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>E:/Program Files/Unity5.3.4/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -67,8 +67,20 @@
      <Compile Include="Assets\PureMVCFrameWork\Patterns\Observer\Observer.cs" />
      <Compile Include="Assets\PureMVCFrameWork\Patterns\Proxy\Proxy.cs" />
      <Compile Include="Assets\Scripts\Flappybird\ApplicationFacade.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Control\Component\Ctrl_GetTime.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Control\Component\Ctrl_HeroControl.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Control\Component\Ctrl_LandMove.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Control\Component\Ctrl_PipMove.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Control\Component\Ctrl_Pipe.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Control\Ctrl_EndGame_Commond.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Control\Ctrl_ReStartGame_Commond.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Control\Ctrl_RigistModelAndView_Commond.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Control\Ctrl_StartGame_Commond.cs" />
      <Compile Include="Assets\Scripts\Flappybird\GameStart.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Model\Model_GameData.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\Model\Model_GameDataProxy.cs" />
      <Compile Include="Assets\Scripts\Flappybird\ProjectConsts.cs" />
+     <Compile Include="Assets\Scripts\Flappybird\View\View_GamePlayingMediator.cs" />
      <Compile Include="Assets\Scripts\UIFramScripts\GameGuideUIForm.cs" />
      <Compile Include="Assets\Scripts\UIFramScripts\GamePlayUIFrom.cs" />
      <Compile Include="Assets\Scripts\UIFramScripts\StartUIForm.cs" />
@@ -88,10 +100,10 @@
      <Compile Include="Assets\UIFramWork\Scripts\SUIFW\UIManager.cs" />
      <Compile Include="Assets\UIFramWork\Scripts\SUIFW\UIType.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/Program Files/Unity5.3.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>E:/Program Files/Unity5.3.4/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
